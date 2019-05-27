@@ -24,7 +24,7 @@ Response Body:
   "surname: "surname", \
   "age": age, \
   "grade": grade \
-} \
+} 
 
 ## Get
 
@@ -34,11 +34,11 @@ returns: JSON as above if exist or Http Status Not Found(404) otherwise
 
 ### On endpoint /employees
 
-returns: JSON which is list of all employees. 
-May be filtered by any combination of properties name, surname, age, grade for example: 
-/employees?name=john&surname=wick
-/employees
-/employees?name=john&surname=wick&age=36&grade=4
+returns: JSON which is list of all employees.  \
+May be filtered by any combination of properties name, surname, age, grade for example: \
+/employees?name=john&surname=wick \
+/employees \
+/employees?name=john&surname=wick&age=36&grade=4 \
 
 ## Put
 
@@ -49,7 +49,7 @@ Accepts JSON form:
   "surname: "surname", \
   "age": age, \
   "grade": grade \
-} \
+}
 
 ## Delete
 ### On endpoint: /employees/{id}
