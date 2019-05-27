@@ -7,7 +7,7 @@ It is Spring Boot appplication - main class is com.example.rest.RestApplication
 # Rest Api
 ## Post 
 
-On endpoint: /employees 
+### On endpoint: /employees 
 Accepts JSON form:
 {
   "name": "<name>",
@@ -42,7 +42,7 @@ May be filtered by any combination of properties name, surname, age, grade for e
 
 ## Put
 
-On endpoint: /employees/{id}
+### On endpoint: /employees/{id}
 Accepts JSON form:
 {
   "name": "<name>",
@@ -52,4 +52,4 @@ Accepts JSON form:
 }
 
 ## Delete
-On endpoint: /employees/{id}
+### On endpoint: /employees/{id}
