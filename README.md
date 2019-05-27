@@ -9,22 +9,22 @@ It is Spring Boot appplication - main class is com.example.rest.RestApplication
 
 ### On endpoint: /employees 
 Accepts JSON form:
-{
-  "name": "<name>",
-  "surname: "<surname>",
-  "age": age,
-  "grade": grade
-}
+{ \
+  "name": "name", \
+  "surname: "surname", \
+  "age": age, \
+  "grade": grade \
+} \
 returns:
 Response Status 201
 Response Body:
-{
-  "id": id,
-  "name": "<name>",
-  "surname: "<surname>",
-  "age": age,
-  "grade": grade
-}
+{ \
+  "id": id, \
+  "name": "name", \
+  "surname: "surname", \
+  "age": age, \
+  "grade": grade \
+} \
 
 ## Get
 
@@ -44,12 +44,12 @@ May be filtered by any combination of properties name, surname, age, grade for e
 
 ### On endpoint: /employees/{id}
 Accepts JSON form:
-{
-  "name": "<name>",
-  "surname: "<surname>",
-  "age": age,
-  "grade": grade
-}
+{ \
+  "name": "name", \
+  "surname: "surname", \
+  "age": age, \
+  "grade": grade \
+} \
 
 ## Delete
 ### On endpoint: /employees/{id}
