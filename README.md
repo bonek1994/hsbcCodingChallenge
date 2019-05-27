@@ -38,7 +38,7 @@ returns: JSON which is list of all employees.  \
 May be filtered by any combination of properties name, surname, age, grade for example: \
 /employees?name=john&surname=wick \
 /employees \
-/employees?name=john&surname=wick&age=36&grade=4 \
+/employees?name=john&surname=wick&age=36&grade=4
 
 ## Put
 
